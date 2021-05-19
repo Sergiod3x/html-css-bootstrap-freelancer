@@ -6,6 +6,16 @@
     flex-wrap: wrap;
 }
 
+.tacnw {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.tj{
+    text-align: justify;
+}
 .border-g{
     border: 4px rgb(0, 255, 13) solid;
 }
@@ -38,9 +48,6 @@
     background-color: teal;
 }
 
-.color-fluid {
-    background-color: red;
-}
 .head{
     display: flex;
     align-items: center;
@@ -78,10 +85,12 @@
 .line{
     width: 40%;
     border: 2px solid black;
+    background-color: black;
 }
 .line-w{
     width: 40%;
     border: 2px solid white;
+    background-color: white;
 }
 .star{
     font-size: x-large;
@@ -99,6 +108,19 @@
     height: auto;
     border-radius:20px;
 }
+.contact-form input, textarea{
+    border: 0px;
+    border-bottom: 1px solid rgba(133, 133, 133, 0.377);
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+/* .contact-form ::placeholder{
+    color: red;
+} */
+
 
 .circle{
     border-radius: 50%;
@@ -107,7 +129,18 @@
     width: 40px;
     text-align: center;
     line-height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
+.ov{
+    overflow-x:hidden;
+}
+
+
+span{
+    color: teal;
+    margin-left: 5px;
 }
 .foot{
     background-color: rgb(44,62,80);
