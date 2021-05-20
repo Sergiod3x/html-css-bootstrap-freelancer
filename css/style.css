@@ -115,7 +115,10 @@
     padding: 15px 0px;
 }
 
-
+.contact-form button, .contact-form button:hover{
+    background-color: teal;
+    border-color: rgb(0, 83, 83);
+}
 
 /* .contact-form ::placeholder{
     color: red;
