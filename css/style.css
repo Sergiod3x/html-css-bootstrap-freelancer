@@ -33,6 +33,9 @@
 .mrgb-l{
     margin-bottom: 48px;
 }
+.mrg-nv-size{
+    margin-top: 56px;
+}
 .hs{
     height: 100px;
 }
@@ -46,6 +49,15 @@
 
 .bc{
     background-color: teal;
+}
+
+/* NAVBAR */
+
+.nv-color{
+    background-color: rgb(44,62,80);
+}
+.reverse{
+    flex-grow: 0;
 }
 
 .head{
