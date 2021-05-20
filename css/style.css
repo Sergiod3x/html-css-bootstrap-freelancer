@@ -33,8 +33,9 @@
 .mrgb-l{
     margin-bottom: 48px;
 }
+/* Margin per ovviare il problema della nav fixed */
 .mrg-nv-size{
-    margin-top: 56px;
+    margin-top: 76px;
 }
 .hs{
     height: 100px;
@@ -58,6 +59,19 @@
 }
 .reverse{
     flex-grow: 0;
+}
+
+.navbar-toggler{
+    font-size: medium;
+    
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: whitesmoke;
+}
+
+.nv-height{
+    height: 76px;
 }
 
 .head{
